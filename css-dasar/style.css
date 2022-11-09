@@ -1,0 +1,211 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+  padding: 0px 30px;
+}
+
+#header .container{
+  margin-top: 70px;
+}
+#app .container{
+  background-color: white;
+  padding-top: 10px;
+}
+
+.container{  
+  margin: 0 auto;
+  max-width: 1024px;
+  height: auto;
+  background-color: darkgrey;
+}
+.navbar{
+  max-width: 1024px;
+  margin: 0px auto;
+  background-color: darkgrey;
+  position: fixed;
+  top: 0px;  
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar button{
+  border-radius: 7px;
+  color:white;
+  padding: 4px;
+  background-color: black;
+}
+ul{  
+  list-style: none;  
+  padding-right: 10px;
+}
+li{
+  display: inline-block;
+  padding: 4px;
+}
+.content h1{  
+  margin: 5px 10px ;
+  font-size: xx-large;
+}
+.content p{
+  margin: 5px 10px ;
+}
+.content img{
+  margin: 0 10px ;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+  padding: 4px;  
+}
+.left{
+  width: 40%;
+}
+
+.gambar{
+  width: 50%;  
+}
+.gambar img{
+  filter:drop-shadow(10px 3px 0px white) drop-shadow(10px 3 px 0px orange)  
+}
+.card-content{
+  display: flex;
+  background-color: white;
+}
+.card img{
+  background-color: darkgrey;
+}
+.right-cap img{
+  background-color: white;
+}
+.card{
+  /* width: calc(100%/3); */
+  margin: 20px;
+}
+
+.caption {
+  padding: 4px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.title{
+  padding: 20px 10px 10px 20px;
+  background-color: white;
+}
+
+#sale .container{
+  height: auto;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+
+}
+#sale .left{
+  width: 50%;
+}
+#sale .left img{  
+  filter:drop-shadow(10px 3px 0px white) drop-shadow(10px 3 px 0px orange)  
+}
+#sale .right{
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 50%;
+  /* padding: 10px; */
+}
+#sale .left h1{
+  padding: 10px;
+}
+#sale .right p{
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+#sale .right h1{
+  margin-bottom: 10px;  
+  font-size: 70px;
+}
+button{
+  border: none;
+}
+#sale .right button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#store .container{
+  background-color: antiquewhite;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#store .left{
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+#store .right{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#store .right img{
+  background-color: darkgrey;
+  width: 120px;
+  height: 120px;
+  margin:10px;
+  padding: 5px 5px;
+}
+#store .left button{
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+#store .left *{
+  margin-bottom: 10px;
+}
+.bottom{
+  text-align: center;
+  padding: 10px;
+  padding-top: 40px;
+  background-color: orange;
+  color: white;
+}
+.input{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.input button{
+  width: 70px;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+.footer{
+  padding: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orange;
+  padding: 4px;
+  font-size: 20px;
+}
