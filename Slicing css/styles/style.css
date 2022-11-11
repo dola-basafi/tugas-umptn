@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* col */
+.col-4 {
+  width: calc((100%3)-24px);
+}
+/* Global Container */
+.container {
+  /* Container width + Gutter */
+  width: 1344px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Navbar */
+#navbar {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 62px;
+  padding-top: 62px;
+}
+#navbar .logo img {
+  height: 60px;
+  width: auto;
+}
+#navbar .logo {
+  /* setengah  dari gutter = 12 px */
+  padding: 0 12px;
+}
+
+#navbar .menu {
+  padding: 0 12px;
+}
+#navbar ul {
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+  margin: 24px;
+  /* display: inline-block; */
+}
+#navbar ul::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+#navbar .container {
+  justify-content: space-between;
+}
+#navbar ul li a {
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+
+  text-decoration: none;
+}
+#navbar ul li a.active {
+  font-weight: bold;
+}
+#navbar .button {
+  padding: 0 12px;
+}
+#navbar .button a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 14px 24px;
+  background-color: #ffffff;
+  font-family: Anybody;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #293241;
+  border-radius: 15px;
+}
+
+#hero {
+  background-color: #0d1728;
+  height: 1276px;
+  background-image: url(../images/Group\ 10669.png);
+  background-position: -295px -449px;
+}
+#hero .content {
+  margin-top: 191px;
+  padding: 0 12px;
+}
+#hero .content p {
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+#hero .content h1 {
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 138%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+#hero .content .getting-started {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  border: 1px solid white;
+  border-radius: 1000px;
+}
+#hero .content .getting-started form {
+  display: flex;
+  width: 100%;
+}
+#hero .content .getting-started inpuT:focus {
+  outline: none !important;
+  border: 0;
+}
+#hero .content .getting-started input {
+  padding: 32px 48px;
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  flex-grow: 1;
+}
+#hero .content .getting-started button {
+  border: none;
+  background: white;
+  padding: 30px 38px;
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 21px;
+  color: #293241;
+  border-radius: 1000px;
+}
+
+#customer .container {
+  margin-top: 70px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+#customer .container h5 {
+  padding-top: 422px;
+  font-family: Anybody;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+#customer .container .card {
+  margin: 0 12px;
+  text-align: center;
+  background: lightblue;
+}
+#customer .container .card .star-container {
+  margin-bottom: 24px;
+}
+#customer .container .card p {
+  margin-bottom: 24px;
+  font-family: "Anybody";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #293241;
+}
+/* how */
+#how h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-family: Anybody;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #293241;
+}
+#how p {
+  margin-top: 24px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #7f848d;  
+}
+#target {
+  margin-top: 70px;
+  width: 2467px;
+  height: 282px;
+  background: url("/images/Vector\ 9.svg");
+  /* display: flex; */
+
+}
+#target .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#target .card-2 {
+  position: absolute;
+  width: 312px;
+  height: 200px;
+  left: 303.5px;
+  top: 2491px;
+  margin: 40px;
+  background: #1e2746;
+  border-radius: 18px;
+
+
+}
