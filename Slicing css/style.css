@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* col */
+.col-6 {
+  width: calc((100%/2)-24px);
+}
+.col {
+  margin: 0 12px ;
+}
+/* Global Container */
+.container {
+  /* Container width + Gutter */
+  width: 1344px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#analytise col h2{
+  margin-bottom: 32px;
+}
+#analytise ul li::before{
+  content: " ";
+  display: inline-block;
+  width: 32px;
+  height: 32px;  
+  margin-right: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/icons/Vector.png);
+}
+#anaytise ul {
+  display: flex;
+  align-items: center;
+}
+#analytise li{  
+  list-style-type: none;
+}
+#pricing .card{
+  padding: 32px;
+  border-radius: 24px;  
+  
+}
+#pricing .card .pricing-box{
+  padding-bottom: 32px;
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid #eaebec;
+}
+/* #pricing .card */
